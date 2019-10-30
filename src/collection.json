@@ -4,6 +4,11 @@
     "hello-world": {
       "description": "A blank schematic.",
       "factory": "./hello-world/index#helloWorld"
+    },
+    "exercise-2": {
+      "description": "Description.",
+      "factory": "./exercise-2/index#exercise2",
+      "schema": "./exercise-2/schema.json"
     }
   }
 }

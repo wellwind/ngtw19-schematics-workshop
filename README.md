@@ -32,13 +32,14 @@ schematics schematic --name=hello-world
 
 ## 練習1: 執行第一個 schematics 並建立檔案
 
-
-修改 src/hello-world/index.ts
+參考 `src/hello-world/index.ts`
 
 ```shell
 npm run build
 schematics .:hello-world --dry-run                # 不真正建立檔案
 schematics .:hello-world --dry-run=false          # 真實的建立檔案
 ```
+
+# 練習2: 設定選項
 
 # Resources

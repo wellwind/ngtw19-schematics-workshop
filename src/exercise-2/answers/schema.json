@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "Exercise2Schematics",
+  "title": "Exercise 2 Schematics Options",
+  "type": "object",
+  "description": "Exercise 2 Schematics Options",
+  "properties": {
+    "name": {
+      "description": "Your name",
+      "type": "string",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "Your name?"
+    },
+    "like": {
+      "description": "Like Angular",
+      "type": "boolean",
+      "default": "true",
+      "x-prompt": "Like Angular?"
+    },
+    "sex": {
+      "description": "your sex",
+      "type": "string",
+      "default": "m",
+      "x-prompt": {
+        "message": "Your Sex?",
+        "type": "list",
+        "items": [
+          { "value": "m", "label": "Male" },
+          { "value": "f", "label": "Female" }
+        ]
+      }
+    }
+  }
+}
