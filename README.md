@@ -30,16 +30,7 @@ schematics schematic --name=hello-world
 
 # 練習
 
-## 練習1: 執行第一個 schematics 並建立檔案
-
-參考 `src/hello-world/index.ts`
-
-```shell
-npm run build
-schematics .:hello-world --dry-run                # 不真正建立檔案
-schematics .:hello-world --dry-run=false          # 真實的建立檔案
-```
-
-# 練習2: 設定選項
+- [練習1: Hello World (建立檔案練習)](hello-world/README.md)
+- [練習2: # 練習2: 設定選項](exercise-2/README.md)
 
 # Resources
