@@ -42,4 +42,4 @@ const templateSource = apply(url('./files'), [
 return chain([mergeWith(templateSource)]);
 ```
 6. `npm run build`
-7. `schematics .:exercise-3 --name=Mike --path=./
+7. `schematics .:exercise-3 --name=Mike --path=./`
