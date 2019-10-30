@@ -2,9 +2,17 @@
 
 # Prepare
 
+## 安裝 schematics cli
+
 ```
 npm install -g @angular-devkit/schematics-cli
 ```
+
+## 開發工具
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Schematics Snippets](https://marketplace.visualstudio.com/items?itemName=MikeHuang.vscode-schematics-snippets)
+- [Angular Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.angular-extension-pack)
 
 # 建立新的 schematics 專案
 
