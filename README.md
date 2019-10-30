@@ -38,3 +38,7 @@ schematics schematic --name=hello-world
 - 練習6: 執行第三方 schematics
 
 # Resources
+
+- [Angular CLI Schematics](https://github.com/angular/angular-cli/tree/master/packages/schematics/angular)
+- [Angualr CDK Schematics](https://github.com/angular/components/tree/master/src/cdk/schematics)
+- [Nrwl Nx Schematics](https://github.com/nrwl/nx/tree/master/packages/schematics)
