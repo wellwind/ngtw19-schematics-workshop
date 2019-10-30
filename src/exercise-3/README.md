@@ -1,3 +1,5 @@
+# 練習3: 使用範本產生檔案
+
 1. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-coll-new-schematic-function-name`)
 ```json
 "exercise-3": {

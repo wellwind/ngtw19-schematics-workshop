@@ -31,6 +31,7 @@ schematics schematic --name=hello-world
 # 練習
 
 - [練習1: Hello World (建立檔案練習)](./src/hello-world/README.md)
-- [練習2: # 練習2: 設定選項](./src/exercise-2/README.md)
+- [練習2: 設定選項](./src/exercise-2/README.md)
+- [練習3: 使用範本產生檔案](./src/exercise-3/README.md)
 
 # Resources
