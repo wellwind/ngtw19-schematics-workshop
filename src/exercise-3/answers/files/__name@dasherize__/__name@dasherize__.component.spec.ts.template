@@ -1,0 +1,12 @@
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-<%= dasherize(name) %>',
+  template: '<h1>Hello {{ title }}'
+})
+export class <%= classify(name) %>Component implements OnInit {
+  title = '<%= name %>';
+
+  constructor() { } 
+
+  ngOnInit() { }
+}

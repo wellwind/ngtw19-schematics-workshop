@@ -1,0 +1,22 @@
+{
+  "schema": "http://json-schema.org/schema",
+  "id": "exercise3",
+  "title": "exercise3",
+  "type": "object",
+  "description": "exercise3",
+  "properties": {
+    "name": {
+      "description": "name",
+      "type": "string",
+      "default": "Mike",
+      "message": "Your name?"
+    },
+    "path": {
+      "description": "path",
+      "type": "string",
+      "default": ".",
+      "message": "File path"
+    }
+  },
+  "required": ["name"]
+}
