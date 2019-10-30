@@ -7,6 +7,7 @@ export function helloWorld(_options: any): Rule {
   return (tree: Tree, _context: SchematicContext) => {
 
     // TODO: 使用 tree.create 建立一個檔案：`hello.ts`，內容為 `console.log('Hello World!');`
+    // snippet: sch-tree-create
     tree.create('hello.ts', 'console.log(\'Hello World\'');
 
     return tree;
