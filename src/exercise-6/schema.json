@@ -1,0 +1,18 @@
+{
+ "schema": "http://json-schema.org/schema",
+ "id": "exercise6",
+ "title": "exercise6",
+ "type": "object",
+ "description": "exercise6",
+ "properties": {
+     "name": {
+       "description": "name",
+       "type": "string",
+       "$default": {
+         "$source": "argv",
+         "index": 0
+       }
+     }
+ },
+ "required": []
+}

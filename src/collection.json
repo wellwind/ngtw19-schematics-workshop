@@ -19,6 +19,11 @@
       "description": "Exercise 5",
       "factory": "./exercise-5/index#exercise5",
       "schema": "./exercise-5/schema.json"
+    },
+    "exercise-6": {
+      "description": "Exercise 6",
+      "factory": "./exercise-6/index#exercise6",
+      "schema": "./exercise-6/schema.json"
     }
   }
 }

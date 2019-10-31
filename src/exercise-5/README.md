@@ -1,4 +1,4 @@
-# 練習5: 安裝套件
+# 練習5: 安裝第三方套件 (更新 package.json)
 
 
 1. 讀取 package.json (snippet: `sch-read-json-file`)
