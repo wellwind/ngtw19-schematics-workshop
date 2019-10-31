@@ -34,8 +34,8 @@ schematics schematic --name=hello-world
 - [練習2: 設定選項](src/exercise-2/README.md)
 - [練習3: 使用範本產生檔案](src/exercise-3/README.md)
 - [練習4: 整合 ng generate 指令](exercise4/README.md)
-- [練習5: 安裝第三方套件 (更新 package.json)]('src/exercise-5/README.md)
-- [練習6: 執行第三方 schematics]('src/exercise-6/README.md)
+- [練習5: 安裝第三方套件 (更新 package.json)](src/exercise-5/README.md)
+- [練習6: 執行第三方 schematics](src/exercise-6/README.md)
 
 # Resources
 
