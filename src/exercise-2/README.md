@@ -31,6 +31,9 @@ export interface Exercise2Options {
 }
 ```
 7. 在 `index.ts` 中 import 這個 interface，並將 `_options` 設定型別為 `Exercise2Options`
+
+-- 休息一下 --
+
 8. 在 `schema.json` 中加入基礎樣板 (snippet: `sch-schema-json`)
 ```json
 {
