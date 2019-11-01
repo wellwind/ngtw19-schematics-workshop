@@ -1,6 +1,14 @@
 # 練習2: 設定選項
 
-1. 在 `index.ts` 中建立新的 function (snippet: `sch-export-function-template`)
+1. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-coll-new-schematic-function-name`)
+```json
+"exercise-2": {
+  "description": "Exercise 2",
+  "factory": "./exercise-2/index#exercise2",
+  "schema": "./exercise-2/schema.json"
+}
+```
+2. 在 `index.ts` 中建立新的 function (snippet: `sch-export-function-template`)
 ```typescript
 import { Rule, SchematicContext, Tree } from "@angular-devkit/schematics";
 
@@ -9,14 +17,6 @@ export function exercise2(_options: any): Rule {
     console.log(_options);
     return tree;
   };
-}
-```
-2. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-coll-new-schematic-function-name`)
-```json
-"exercise-2": {
-  "description": "Exercise 2",
-  "factory": "./exercise-2/index#exercise2",
-  "schema": "./exercise-2/schema.json"
 }
 ```
 3. `npm run build`
