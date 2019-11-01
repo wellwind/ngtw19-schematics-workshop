@@ -5,6 +5,11 @@
       "description": "A blank schematic.",
       "factory": "./hello-world/index#helloWorld"
     },
+    "exercise-2": {
+      "description": "Description.",
+      "factory": "./exercise-2/index#exercise2",
+      "schema": "./exercise-2/schema.json"
+    },
     "exercise-3": {
       "description": "Exercise 3",
       "factory": "./exercise-3/index#exercise3",
