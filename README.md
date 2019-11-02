@@ -41,6 +41,6 @@ schematics schematic --name=hello-world
 
 - [Angular CLI Schematics](https://github.com/angular/angular-cli/tree/master/packages/schematics/angular)
 - [Angualr CDK Schematics](https://github.com/angular/components/tree/master/src/cdk/schematics)
-- [Nrwl Nx Schematics](https://github.com/nrwl/nx/tree/master/packages/schematics)
+- [Nrwl Nx Schematics](https://github.com/nrwl/nx/tree/master/packages)
 - [玩轉 Schematics](https://www.slideshare.net/ssuser35b57e/playing-schematics-modern-web-2018)
 - [高效 Coding 術：Angular Schematics 實戰三十天](https://ithelp.ithome.com.tw/users/20090728/ironman/2149)
