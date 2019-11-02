@@ -46,6 +46,4 @@
 
 ## 補充資訊
 
-1. `*.template` 內的語法參考 [lodash.template](https://lodash.com/docs/4.17.15#template)
-
-2. 使用 applyTemplates 時需要將所有檔案的附檔名加上 `.template`，在完成後會移除 `.template` 名稱
+使用 applyTemplates 時需要將所有檔案的附檔名加上 `.template`，在完成後會移除 `.template` 名稱
