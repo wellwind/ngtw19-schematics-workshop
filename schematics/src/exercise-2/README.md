@@ -1,27 +1,27 @@
-# 練習2: 設定選項
+# 練習 2: 設定選項
 
 1. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-coll-new-schematic-function-name`)
 
-    ```json
-    "exercise-2": {
-      "description": "Exercise 2",
-      "factory": "./exercise-2/index#exercise2",
-      "schema": "./exercise-2/schema.json"
-    }
-    ```
+   ```json
+   "exercise-2": {
+     "description": "Exercise 2",
+     "factory": "./exercise-2/index#exercise2",
+     "schema": "./exercise-2/schema.json"
+   }
+   ```
 
 2. 在 `index.ts` 中建立新的 function (snippet: `sch-export-function-template`)
 
-    ```typescript
-    import { Rule, SchematicContext, Tree } from "@angular-devkit/schematics";
+   ```typescript
+   import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 
-    export function exercise2(_options: any): Rule {
-      return (tree: Tree, _context: SchematicContext) => {
-        console.log(_options);
-        return tree;
-      };
-    }
-    ```
+   export function exercise2(_options: any): Rule {
+     return (tree: Tree, _context: SchematicContext) => {
+       console.log(_options);
+       return tree;
+     };
+   }
+   ```
 
 3. `npm run build`
 
@@ -31,40 +31,40 @@
 
 6. 建立一個 interface 定義參數型別
 
-    ```typescript
-    export interface Exercise2Options {
-      name: string;
-      like: boolean;
-      sex: string;
-    }
-    ```
+   ```typescript
+   export interface Exercise2Options {
+     name: string;
+     like: boolean;
+     sex: string;
+   }
+   ```
 
 7. 在 `index.ts` 中 import 這個 interface，並將 `_options` 設定型別為 `Exercise2Options`
 
 8. 在 `schema.json` 中加入基礎樣板 (snippet: `sch-schema-json`)
 
-    ```json
-    {
-      "$schema": "http://json-schema.org/schema",
-      "id": "Exercise2Schematics",
-      "title": "Exercise 2 Schematics Options",
-      "type": "object",
-      "description": "Exercise 2 Schematics Options",
-      "properties": {},
-      "required": []
-    }
-    ```
+   ```json
+   {
+     "$schema": "http://json-schema.org/schema",
+     "id": "Exercise2Schematics",
+     "title": "Exercise 2 Schematics Options",
+     "type": "object",
+     "description": "Exercise 2 Schematics Options",
+     "properties": {},
+     "required": []
+   }
+   ```
 
 9. 在 `properties: {}` 內加入一個自行輸入的 `name` 參數設定 (snippet: `sch-schema-property-prompt-input`)
 
-    ```json
-    "name": {
-      "description": "Name",
-      "type": "string",
-      "default": "Mike",
-      "x-prompt": "Your name?"
-    }
-    ```
+   ```json
+   "name": {
+     "description": "Name",
+     "type": "string",
+     "default": "Mike",
+     "x-prompt": "Your name?"
+   }
+   ```
 
 10. 在 `properties: {}` 內加入一個 Ｙ/n 的 `like` 參數設定 (snippet: `sch-schema-property-prompt-yes-no`)
 
