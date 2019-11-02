@@ -49,6 +49,7 @@ schematics schematic --name=hello-world
 
 ## Resources
 
+- [@angular-devkit/schematics 文件](https://github.com/angular/angular-devkit-schematics-builds)(還不太完整，但可參考)
 - [Angular CLI Schematics](https://github.com/angular/angular-cli/tree/master/packages/schematics/angular)
 - [Angualr CDK Schematics](https://github.com/angular/components/tree/master/src/cdk/schematics)
 - [Nrwl Nx Schematics](https://github.com/nrwl/nx/tree/master/packages)
