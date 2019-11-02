@@ -28,6 +28,14 @@ schematics blank --name=hello-world
 schematics schematic --name=hello-world
 ```
 
+## Schematics 基本觀念
+
+- 所有的檔案系統都會被當成是一個 `Tree`，我們要做的就是修改這個 `Tree` 的結構，並將最終 `Tree` 的結果合併回原始檔案系統。
+
+- 修改 `Tree` 的結構的程式，我們稱為 `Rule`
+
+- [@angular-devkit/schematics 所有內建 Rule 的程式碼](https://github.com/angular/angular-devkit-schematics-builds/tree/master/src/rules)
+
 ## 練習
 
 練習 1~3、5 請在 schematics 目錄內練習，練習 4 請在 exercise4 目錄內練習，練習 6 先在 schematics 目錄內完成後，到 exercise6 看結果。
