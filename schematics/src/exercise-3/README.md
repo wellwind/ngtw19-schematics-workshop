@@ -2,7 +2,7 @@
 
 1. 建立 `files` 與 `files/__name@dasherize__` 目錄
 
-2. 在 `files/__name@dasherize__` 目錄內建立檔案 `__name@dasherize__.component.spec.ts.template`
+2. 在 `files/__name@dasherize__` 目錄內建立檔案 `__name@dasherize__.component.ts.template`
 
   ```ts
   import { Component } from '@angular/core';
