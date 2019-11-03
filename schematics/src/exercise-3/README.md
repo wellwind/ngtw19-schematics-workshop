@@ -19,7 +19,7 @@
   }
   ```
 
-3. import 所需的工具程式(snippet: `sch-apply-merge-templates-import`)
+3. import 所需的工具程式(snippet: `sch-import-apply-merge-templates`)
 
   ```ts
   import { apply, url, applyTemplates, move, chain, mergeWith } from '@angular-devkit/schematics';

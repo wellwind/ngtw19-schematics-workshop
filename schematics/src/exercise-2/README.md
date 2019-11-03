@@ -1,6 +1,6 @@
 # 練習 2: 設定選項
 
-1. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-coll-new-schematic-function-name`)
+1. 在 `../collection.json` 的 `schematics: {}` 中加入一個新的 schematics 設定 (snippet: `sch-new-schematic-function-name`)
 
    ```json
    "exercise-2": {
@@ -41,7 +41,7 @@
 
 7. 在 `index.ts` 中 import 這個 interface，並將 `_options` 設定型別為 `Exercise2Options`
 
-8. 在 `schema.json` 中加入基礎樣板 (snippet: `sch-schema-json`)
+8. 在 `schema.json` 中加入基礎樣板 (snippet: `sch-json`)
 
    ```json
    {
@@ -55,7 +55,7 @@
    }
    ```
 
-9. 在 `properties: {}` 內加入一個自行輸入的 `name` 參數設定 (snippet: `sch-schema-property-prompt-input`)
+9. 在 `properties: {}` 內加入一個自行輸入的 `name` 參數設定 (snippet: `sch-property-prompt-input`)
 
    ```json
    "name": {
@@ -66,7 +66,7 @@
    }
    ```
 
-10. 在 `properties: {}` 內加入一個 Ｙ/n 的 `like` 參數設定 (snippet: `sch-schema-property-prompt-yes-no`)
+10. 在 `properties: {}` 內加入一個 Ｙ/n 的 `like` 參數設定 (snippet: `sch-property-prompt-yes-no`)
 
     ```json
     "like": {
@@ -77,7 +77,7 @@
     }
     ```
 
-11. 在 `properties: {}` 內加入一個包含選項的 `sex` 參數設定 (snippet: `sch-schema-property-prompt-selection`)
+11. 在 `properties: {}` 內加入一個包含選項的 `sex` 參數設定 (snippet: `sch-property-prompt-selection`)
 
     ```json
     "sex": {
@@ -101,7 +101,7 @@
 
 14. 執行 `schematics .:exercise-2`，並輸入相關參數，或使用 `schematics .:exercise-2 --name=Mike --like --sex=f` 直接指定參數
 
-15. 將 `peoperties: {}` 中 `name` 的 `default` 設定移除，換成 `$default` 設定 (snippet: `sch-schema-property-dollar-default`)
+15. 將 `peoperties: {}` 中 `name` 的 `default` 設定移除，換成 `$default` 設定 (snippet: `sch-property-dollar-default`)
 
     ```json
     "$default": {

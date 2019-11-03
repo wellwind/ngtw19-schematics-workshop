@@ -1,4 +1,4 @@
-// TODO: import 所需的工具程式 snippet: sch-apply-merge-templates-import
+// TODO: import 所需的工具程式 snippet: sch-import-apply-merge-templates
 import { normalize, strings } from '@angular-devkit/core';
 import { apply, applyTemplates, chain, mergeWith, move, Rule, SchematicContext, Tree, url } from '@angular-devkit/schematics';
 
@@ -13,11 +13,11 @@ export function exercise3(options: any): Rule {
       }),
       move(normalize(options.path as string))
     ]);
-    
+
     return chain([
       mergeWith(templateSource)
     ]);
-    
-    
+
+
   };
 }
