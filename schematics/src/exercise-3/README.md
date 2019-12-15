@@ -5,7 +5,7 @@
 2. 在 `files/__name@dasherize__` 目錄內建立檔案 `__name@dasherize__.component.ts.template`
 
   ```ts
-  import { Component } from '@angular/core';
+  import { Component, OnInit } from '@angular/core';
   @Component({
     selector: 'app-<%= dasherize(name) %>',
     template: '<h1>Hello {{ title }}'
